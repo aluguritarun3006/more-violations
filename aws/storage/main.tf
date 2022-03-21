@@ -30,6 +30,7 @@ EOF
   }
 }
 
+
 resource "aws_db_instance" "education" {
     name                      = var.name
     instance_class            = var.class
