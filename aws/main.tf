@@ -18,7 +18,19 @@ module "compute" {
 module "network" {
   source = "./modules/network"
 }
-\
+
 module "storage" {
   source = "./modules/storage"
+}
+
+module "compute_1" {
+  source = "./modules/compute_1"
+}
+
+module "network_1" {
+  source = "./modules/network_1"
+}
+
+module "storage_1" {
+  source = "./modules/storage_1"
 }
