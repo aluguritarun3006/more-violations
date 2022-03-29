@@ -140,3 +140,33 @@ module "network_8" {
 module "storage_8" {
   source = "./modules/storage_8"
 }
+
+
+#BLOCK9
+
+module "compute_9" {
+  source = "./modules/compute_9"
+}
+
+module "network_9" {
+  source = "./modules/network_9"
+}
+
+module "storage_9" {
+  source = "./modules/storage_9"
+}
+
+
+#BLOCK10
+
+module "compute_10" {
+  source = "./modules/compute_10"
+}
+
+module "network_10" {
+  source = "./modules/network_10"
+}
+
+module "storage_10" {
+  source = "./modules/storage_10"
+}
