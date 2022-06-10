@@ -11,7 +11,7 @@ resource "aws_s3_bucket" "mfadelete" {
   acl    = var.public
   versioning {
     mfa_delete = "false"
-    enabled = "false"
+    #enabled = "false"
   }
    website {
     index_document = "index.html"
